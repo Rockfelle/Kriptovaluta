@@ -1,0 +1,223 @@
+<html>
+	<head>
+	<title>  Криптовалюты  </title>
+	<style>
+	  body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0; /* Цвет фона */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    .logo {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: white;
+      border: 1px solid black;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .container {
+      margin: 80px auto 40px;
+      width: 80%;
+      max-width: 800px;
+      background-color: white;
+      border: 2px solid black;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .content {
+      display: block;
+      justify-content: space-between;
+      max-width: 100%;
+      gap: 20px;
+    }
+
+    .text {
+      width: 100%;
+      box-sizing: border-box;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      white-space: normal;
+    }
+
+   .text img,
+   .content img {
+     max-width: 100%;
+     height: auto;
+     display: block;
+     margin: 0 auto;
+    }
+
+    .image {
+      flex: 1;
+    }
+
+    .image img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .pagination {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .pagination a {
+      margin: 0 5px;
+      text-decoration: none;
+      color: black;
+      border: 1px solid black;
+      padding: 4px 8px;
+    }
+
+    .center-box {
+    width: 60%;
+    max-width: 700px;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: white;
+    border: 2px solid black;
+    box-sizing: border-box;
+
+    
+    overflow-wrap: break-word;   
+    word-wrap: break-word;       
+    white-space: normal;         
+    overflow: hidden;            
+  }
+ .fixed-footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+
+   background-color: #111;
+   color: #ccc;
+   padding: 10px 0;
+   font-family: Arial, sans-serif;
+   font-size: 14px;
+
+   z-index: 1000;
+ }
+
+ .feedback-form {
+  margin-top: 50px;
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-form h2 {
+  margin-top: 0;
+  font-size: 22px;
+  color: #333;
+  text-align: center;
+}
+
+.feedback-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.feedback-form textarea {
+  height: 100px;
+}
+
+.feedback-form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: #45a049;
+}
+
+  
+  </style>
+	</head>
+
+	<body background ="fon1.jpg">
+	  <a href="https://coinmarketcap.com/" class="logo">
+	 <img src="logo2.jpg" alt="Логотип" style="width: 60px; height: auto;">
+	</a>
+
+  <div class="container">
+    <h1><i><font face = "times new roman">Добро пожаловать на сайт посвещённый криптовалюте</font></i> </h1>
+
+    <div class="content">
+      <div class="text">
+        <p>
+         <font face = "academy engraved let"><p align = "center">На протяжении последних лет криптовалюты зарекомендовали себя как один из самых высокодоходных, но в то же время — высокорискованных инвестиционных инструментов. Они открывают новые горизонты для частных инвесторов и компаний, позволяя обойти традиционные финансовые барьеры и воспользоваться преимуществами децентрализованных технологий.</p>
+	 <p align = "center"> В условиях экономической нестабильности и глобальных изменений цифровые активы становятся особенно привлекательными: они дают возможность сохранить и приумножить капитал, когда традиционные рынки испытывают давление.</p>
+	 <p align = "center"> Этот сайт создан как отправная точка для тех, кто делает первые шаги в мире криптовалют. Здесь вы найдете базовую информацию, полезные материалы и простые объяснения сложных понятий — всё, чтобы начать разбираться в технологии блокчейн и возможностях цифровых активов.</p>
+	</font>
+	<div class="container">
+
+  <div class="feedback-form">
+    <h2>Оставьте ваш отзыв после прочтения</h2>
+    <form action="#" method="post" onsubmit="alert('Спасибо за ваш отзыв!'); return false;">
+      <label for="name">Ваше имя:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Ваш Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Ваш отзыв:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Отправить</button>
+    </form>
+  </div>
+</div>
+ 
+ <footer class="fixed-footer">
+	</p>
+      </div>
+
+      
+    </div>
+
+    <div class="pagination">
+      <a href="стр.2.html">2</a>
+      <a href="стр.3.html">3</a>
+      <a href="стр.4.html">4</a>
+      <a href="стр.5.html">5</a>
+    </div>
+  </div>
+  <footer class="fixed-footer">
+  © 2025 All rights reserved
+</footer>
+	</body>
+	
+	
+<html>
